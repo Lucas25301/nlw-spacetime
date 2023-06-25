@@ -8,9 +8,9 @@ Esse é um projeto Web Responsivo de uma cápsula do tempo para exibir memórias
 ## 🚀 Técnologias
 Esse projeto foi desenvlvido durante o NLW da Rocketseat com as seguintes técnologias:
 
--HTML
--CSS
-_Git e GitHb
+- HTML
+- CSS
+- Git e GitHb
 
 ## 🏷️ Layout
 Você pode visualisar o layout do projeto através
