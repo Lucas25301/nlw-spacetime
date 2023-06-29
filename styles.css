@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -32,8 +32,8 @@
 }
 
 body {
-  background-color: #121215;
-  color: #eaeaea;
+  background-color: #0d0d1b;
+  color: #af9ff7;
 
   font-family: "Roboto", sans-serif;
 
@@ -72,16 +72,16 @@ nav {
 
 .memory img {
   width: 100%;
-  height: 280px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
 
   transition: transform 0.3s ease-in-out;
 }
 
 .memory div {
   width: 100%;
-  height: 280px;
+  height: 230px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -92,7 +92,7 @@ nav {
 
 .memory p {
   font-size: 1.2rem;
-  color: #bebebf;
+  color: #bfbebe;
   line-height: 28px;
 }
 
@@ -103,29 +103,28 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 18px;
 
   border-right: 1px solid;
-  border-image: linear-gradient(#727275, #2c2c31) 1;
+  border-image: linear-gradient(#ffffff, #2c2c31) 1;
 
-  background-image: url("./assets/background.svg");
+  background-image: url("./assets/fundo1.webp");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100%;
-}
 
+}
 aside * {
   animation: entering 0.7s ease-in-out;
 }
-
 aside img:nth-child(2) {
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 
-  border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+  border: 3px solid transparent;
+  background: linear-gradient(#bab6d3, #4d468d, #5b63cf) padding-box, 
+    linear-gradient(260deg, #9390bb, #2a18c7, #5b63cf) border-box;
 }
 
 aside p {
